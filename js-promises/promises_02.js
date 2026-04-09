@@ -15,13 +15,14 @@ function wait(ms) {
   });
 }
 
-wait(2000)
+wait("2000")
   .then((message) => {
     console.log(message);
   })
   .catch((error) => {
     console.error(error);
-  });
+  })
+  .finally(() => console.log("All done!"));
 
 // Why this is common
 

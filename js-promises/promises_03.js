@@ -17,11 +17,11 @@ function checkAge(age) {
       } else {
         reject("Access denied");
       }
-    }, 1000);
+    }, 5000);
   });
 }
 
-checkAge(20)
+checkAge(17)
   .then((message) => {
     console.log(message);
   })
