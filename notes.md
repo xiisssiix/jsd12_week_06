@@ -14,3 +14,4 @@ You can contrast them like this:
 
 - **OOP / Functional programming** = how we think about and structure program logic
 - **Folder structure** = how we arrange files in the codebase
+
